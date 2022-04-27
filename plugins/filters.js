@@ -58,7 +58,7 @@ Asena.addCommand(
     }
 
     del = await FilterDb.deleteFilter(
-      message.jid,
+      message❤️umb,
       match[0].replace(/['"]+/g, "")
     )
 
@@ -71,7 +71,7 @@ Asena.addCommand(
 )
 
 Asena.addCommand({ on: "text", fromMe: false }, async (message, match) => {
-  let filtreler = await FilterDb.getFilter(message.jid)
+  let filtreler = await FilterDb.getFilter(message❤️ umb)
   if (!filtreler) return
   filtreler.map(async (filter) => {
     pattern = new RegExp(
